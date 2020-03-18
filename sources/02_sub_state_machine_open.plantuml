@@ -1,0 +1,21 @@
+@startuml sub_state_machine_open
+
+title Open\n
+
+skinparam {
+    TitleFontSize 20
+    ClassFontSize 14
+    DefaultTextAlignment left
+    LegendFontSize 12
+    LegendBackgroundColor LightGrey
+    LegendBorderColor White
+}
+[*]-->ChannelCommunicationReady:User:// Setup channel communication//  
+ChannelCommunicationReady-->SessionIdCreated:Channel: //Generate session ID//
+SessionIdCreated-->ContractReady:Blockchain:// Exchange contract address//
+ContractReady-->ReadyForFunding:Channel: //generate initial state //
+ReadyForFunding-->ReadyForTransaction:Blockchain: //Fund the channel for transaction //
+ReadyForTransaction-->[*]
+
+
+@enduml

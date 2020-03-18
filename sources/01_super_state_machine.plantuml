@@ -1,0 +1,20 @@
+@startuml super_state_machine
+
+title Node Manager\n
+
+skinparam {
+    TitleFontSize 20
+    ClassFontSize 14
+    DefaultTextAlignment left
+    LegendFontSize 12
+    LegendBackgroundColor LightGrey
+    LegendBorderColor White
+}
+[*]-->Open:Blockchain:// Setup the contract//\nChannel: //Establishing the connection//
+
+Transact-right->Register:User: //Initialize close//
+Open-->Register://Peer not responding//\nUser/NodeManager: //Initialize close//
+Open-down->Transact:Blockchain: //Onchain state registered//\nChannel: //Offchain state initialised//
+Register-->Close:Blockchain: //Final state registered//
+Close-->[*]:Blockchain: //Settling the amount based//\n//on the CloseFinalise result//
+@enduml

@@ -1,0 +1,18 @@
+@startuml sub_state_machine_close
+
+title Close\n   
+
+skinparam {
+    TitleFontSize 20
+    ClassFontSize 14
+    DefaultTextAlignment left
+    LegendFontSize 12
+    LegendBackgroundColor LightGrey
+    LegendBorderColor White
+}
+[*]-->Settled:Blockchain: //Funds pushed to the users// 
+ 
+Settled-->[*]
+
+
+@enduml
