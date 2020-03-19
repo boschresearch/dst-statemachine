@@ -13,8 +13,11 @@
    width="1260"
    height="1085"
    id="svg6895"
-   sodipodi:docname="State machine_Register.svg"
-   inkscape:version="0.92.1 r15371">
+   sodipodi:docname="03_alt_state_machine_register_svg.svg"
+   inkscape:version="0.92.1 r15371"
+   inkscape:export-filename="/home/manoranjith/Desktop/state-machine/dst-statemachine/03_sub_state_machine_register_svg.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
   <metadata
      id="metadata6899">
     <rdf:RDF>
@@ -23,6 +26,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -33,21 +37,22 @@
      objecttolerance="10"
      gridtolerance="10"
      guidetolerance="10"
-     inkscape:pageopacity="0"
+     inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:window-width="1916"
      inkscape:window-height="829"
      id="namedview6897"
      showgrid="false"
      inkscape:zoom="0.5"
-     inkscape:cx="809.4761"
-     inkscape:cy="521.73001"
+     inkscape:cx="-778.5239"
+     inkscape:cy="489.73001"
      inkscape:window-x="0"
      inkscape:window-y="25"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g6031-2"
+     inkscape:current-layer="layer2"
      inkscape:snap-page="false"
-     showguides="false">
+     showguides="false"
+     inkscape:pagecheckerboard="true">
     <inkscape:grid
        type="xygrid"
        id="grid3661" />
